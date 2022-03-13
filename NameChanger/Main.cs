@@ -97,7 +97,7 @@ namespace NameChanger
 
         private void LblGitHub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/sudo-bob/namechanger");
+            Process.Start("https://github.com/plumbwicked/RDR2-Name-Changer");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -137,7 +137,7 @@ namespace NameChanger
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://www.unknowncheats.me/forum/index.php");
+            Process.Start("https://www.unknowncheats.me/forum/red-dead-redemption-2-a/376079-name-changer-rdr2.html");
         }
     }
 

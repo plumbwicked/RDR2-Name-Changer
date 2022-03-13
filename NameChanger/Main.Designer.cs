@@ -103,6 +103,7 @@
             this.Controls.Add(this.txtCurrentName);
             this.Controls.Add(this.lblCurrentName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
