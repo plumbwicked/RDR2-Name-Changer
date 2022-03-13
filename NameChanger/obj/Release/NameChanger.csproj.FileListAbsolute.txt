@@ -1,0 +1,9 @@
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\bin\Release\NameChanger.exe.config
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\bin\Release\NameChanger.exe
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\bin\Release\NameChanger.pdb
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\obj\Release\NameChanger.Main.resources
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\obj\Release\NameChanger.Properties.Resources.resources
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\obj\Release\NameChanger.csproj.GenerateResource.cache
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\obj\Release\NameChanger.exe
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\obj\Release\NameChanger.pdb
+C:\Users\Dad\Desktop\Development Projects\namechanger-master2\namechanger-master\NameChanger\obj\Release\NameChanger.csprojAssemblyReference.cache

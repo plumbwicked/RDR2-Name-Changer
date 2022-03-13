@@ -1,2 +1,2 @@
-# RDR2 Name Changer
- A standalone NameChanger for RDR2 .
+# namechanger
+For educational purposes only
