@@ -72,21 +72,24 @@
             // 
             // lblGitHub
             // 
-            this.lblGitHub.ActiveLinkColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblGitHub.ActiveLinkColor = System.Drawing.Color.Lime;
             this.lblGitHub.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.lblGitHub, "lblGitHub");
-            this.lblGitHub.LinkColor = System.Drawing.SystemColors.MenuHighlight;
+            this.lblGitHub.LinkColor = System.Drawing.Color.White;
             this.lblGitHub.Name = "lblGitHub";
             this.lblGitHub.TabStop = true;
+            this.lblGitHub.VisitedLinkColor = System.Drawing.Color.Fuchsia;
             this.lblGitHub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LblGitHub_LinkClicked);
             // 
             // linkLabel1
             // 
-            this.linkLabel1.ActiveLinkColor = System.Drawing.SystemColors.MenuHighlight;
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Lime;
+            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.linkLabel1, "linkLabel1");
-            this.linkLabel1.LinkColor = System.Drawing.SystemColors.MenuHighlight;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.TabStop = true;
+            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Fuchsia;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Main
@@ -95,6 +98,7 @@
             this.AllowDrop = true;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblGitHub);
             this.Controls.Add(this.btnChangeName);
@@ -102,7 +106,8 @@
             this.Controls.Add(this.lblNewName);
             this.Controls.Add(this.txtCurrentName);
             this.Controls.Add(this.lblCurrentName);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Main";
